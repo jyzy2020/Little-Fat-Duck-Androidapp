@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Little Fat Duck</string>
+    <string name="promotion">Promotion</string>
+    <string name="menu">Menu</string>
+    <string name="outlet">Outlet</string>
+    <string name="register">Register</string>
+    <string name="catering">Catering</string>
+    <string name="help">Help</string>
+
+    <!-- Title of fragment -->
+    <string name="title_promotion">Promotion</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_outlet">Outlet</string>
+    <string name="title_user">Register</string>
+
+
+    <!-- Strings related to fragment_promotion -->
+    <string name="value_set">Value Set</string>
+    <string name="set_description">For only RM9.90 enjoy this value for money meal,
+            set comes with pasta of choice, drink and dessert,
+            available at all outlets near you.</string>
+    <string name="value_meals">Value Meals</string>
+
+
+    <!-- Strings related to fragment_menu -->
+    <string name="pasta">Pasta</string>
+    <string name="carbonara_txt">Carbonara</string>
+    <string name="carbonara_des">For lovers of creamy pastas!\n\n
+        This fundamentally simple dish consists of a rich, creamy sauce with eggs, cheese,
+        chicken or beef bacon and a finishing dash of salt and pepper.</string>
+    <string name="macncheese_txt">Mac N Cheese</string>
+    <string name="macncheese_des">The classic Mac N Cheese. Everyone’s favorite meal.\n\n
+        A simple yet delicious and wholesome meal, suitable for everyone, experience the
+        cheesy goodness recipe made from our kitchen to you.</string>
+    <string name="bolognaise_txt">Bolognaise</string>
+    <string name="bolognaise_des">The healthy choice, filled with antioxidants and vitamin C!\n\n
+            This pasta of Tomato-ey goodness comes in beef or chicken has a refreshing taste that
+            leaves you feeling nostalgic.</string>
+    <string name="bechamel_txt">Bechamel</string>
+    <string name="bechamel_des">A different spin on your standard cream pastas!\n\n
+            This buttery, milky white sauce is thicker and much more satisfying than your regular
+            cream sauces.</string>
+    <string name="mornay_txt">Mornay</string>
+    <string name="mornay_des">For lovers of cheesier pastas!\n\n
+            The Mornay is much cheesier than the carbonara but still maintains it’s creamy, silky
+            nature when served with pasta.</string>
+
+    <string name="mains">Mains</string>
+    <string name="confit_txt">Chicken Confit</string>
+    <string name="confit_des">A French delicacy where meat is slowly cooked in its own fat which results in really
+        tender and rich tasting meat that literally falls off the bone</string>
+    <string name="chop_txt">Chicken Chop</string>
+    <string name="chop_des">A healthy choice, served with a beautiful brown sauce that is truly appetizing
+        and its accompaniment of mashed potatoes makes the dish a complete and
+        satisfying meal.</string>
+    <string name="meatball_txt">Chicken Meatball</string>
+    <string name="meatball_des">Meatballs served over mashed potatoes, drenched with a delicious creamy and cheesy
+        sauce. Best accompanied with pastas.</string>
+
+    <string name="sides">Sides</string>
+    <string name="potatoes_txt">Mashed Potatoes</string>
+    <string name="potatoes_des">Soft, creamy and of course served with a delicious peppery brown sauce.</string>
+
+    <string name="desserts">Desserts</string>
+    <string name="pudding_txt">Pudding (Original &amp; Chocolate)</string>
+    <string name="pudding_des">A Vanilla or Chocolate Soy-based pudding that is a modern version of your childhood
+        favourite ‘tau foo fah’.</string>
+
+    <string name="drinks">Drinks</string>
+    <string name="tea_txt">Ice Lemon Tea</string>
+    <string name="tea_des">A refreshing, slightly sour drink that quenches your thirst on a hot day.</string>
+
+
+    <!-- Strings related to fragment_outlet -->
+    <string name="kl">Kuala Lumpur</string>
+    <string name="mytown">MyTown Shopping Centre</string>
+    <string name="mytown_add">B1-089, 6, Jalan Cochrane, Seksyen 90,\n
+        Kuala Lumpur 55100\n\n
+            Opening Hours :\n
+            Daily 10am – 10pm</string>
+    <string name="bangsar">Bangsar</string>
+    <string name="bangsar_add">40, Jalan Bangsar, Wilayah Persekutuan,\n
+        59000 Kuala Lumpur\n\n
+            Opening Hours :\n
+            Daily 12pm – 11pm\n\n
+            Closed on Saturdays</string>
+
+    <string name="seri_kembangan">Seri Kembangan</string>
+    <string name="mines">The Mines Shopping</string>
+    <string name="mines_add">L1-K4/K5, Jalan Dulang, Mines Resort City,\n
+            43300 Seri Kembangan, Selangor, Malaysia\n\n
+            Opening Hours :\n
+            Daily 10am – 10pm</string>
+
+    <string name="pj">Petaling Jaya</string>
+    <string name="oneu">One Utama Shopping Centre</string>
+    <string name="oneu_add">GK 102A – 103, Old Wing,\n
+        1 Utama Shopping Centre, Bandar Utama,\n
+        Petaling Jaya 47800\n\n
+            Opening Hours :\n
+            Daily 10am – 10pm</string>
+    <string name="evolve">Evolve Concept Mall</string>
+    <string name="evolve_add">EV-G-K04 (infront of H&amp;M)\n
+            Jalan PJU 1A/4, Ara Damansara, 47301, \n
+        Petaling Jaya\n\n
+            Opening Hours :\n
+            Daily 10am – 10pm</string>
+    <string name="tropicana">Tropicana City Mall</string>
+    <string name="tropicana_add">LG 43 (infront of Aeon)\n
+            Jalan SS 20/27, Seksyen 20, Tropicana City Mall,\n
+        Damansara Intan, Petaling Jaya 47300\n\n
+            Opening Hours :\n
+            Daily 10am – 10pm</string>
+    <string name="shoplot">Shoplot</string>
+    <string name="shoplot_add">23, Jalan Camar, Ground Floor,\n
+        Jalan Camar 4/2 Seksyen 4, Kota Damansara\n\n
+            Opening Hours :\n
+            Daily 12am – 12pm\n\n
+            Closed on Sundays</string>
+    <string name="glomac">Glomac Centro</string>
+    <string name="glomac_add">1-38, Glomac Centro, Jalan Teratai,\n
+        Jalan PJU 6A/3A, Kampung Sungai Kayu Ara, 47400 Petaling Jaya Selangor\n\n
+            Opening Hours :\n
+            Daily 12pm – 12am\n\n
+        Closed on Mondays</string>
+
+
+    <!-- Strings related to fragment_user -->
+    <string name="prompt_name">Username</string>
+    <string name="prompt_dob">Date Of Birth (dd/mm/yy)</string>
+    <string name="prompt_email">Email</string>
+    <string name="get_it_now">Get it now!</string>
+    <string name="register_now">Register now for exclusive birthday vouchers!</string>
+    <string name="agreement">I agree to share my personal information with Little Fat Duck.</string>
+    <string name="pdpa">Personal Data Protection Act</string>
+
+
+    <!-- Strings related to activity_help -->
+    <string name="faq_des1">RM 1,200. Mix &amp; match any times on our menu to achieve this.</string>
+    <string name="faq_list1">What is the minimum order?</string>
+    <string name="faq">FAQ</string>
+    <string name="email_us_now">Email Us Now!</string>
+    <string name="send_mail">Send Mail</string>
+
+
+    <!-- Strings related to activity_catering -->
+    <string name="book_a_catering_service_now">Book a catering service now!</string>
+    <string name="order_details">Order details</string>
+    <string name="pick_your_food">Pick your food!</string>
+    <string name="invoice_billing_name">Invoice / Billing name</string>
+    <string name="catering_address">Catering address</string>
+    <string name="additional_request">Additional request</string>
+    <string name="seven_up">7 Up - RM3/pax</string>
+    <string name="a_and_w">A&amp;W - RM3/pax</string>
+    <string name="coke">Coke - RM3/pax</string>
+    <string name="ice_lemon_tea_number_of_pax">Ice Lemon Tea - RM3/pax</string>
+    <string name="pudding_number_of_pax">Pudding - RM3.80/pax</string>
+    <string name="chicken_meatball_number_of_pax">Chicken Meatball - RM13.80/pax</string>
+    <string name="chicken_confit_number_of_pax">Chicken Confit - RM13.80/pax</string>
+    <string name="chicken_chop_number_of_pax">Chicken Chop - RM13.80/pax</string>
+    <string name="mac_amp_cheese_number_of_pax">Mac&amp;Cheese - RM8/pax</string>
+    <string name="sausage_spinach_bechamel_number_of_pax">Sausage Spinach Bechamel - RM6/pax</string>
+    <string name="chicken_mushroom_mornay_number_of_pax">Chicken Mushroom Mornay - RM6/pax</string>
+    <string name="carbonara_beef_number_of_pax">Carbonara (Beef) - RM6/pax</string>
+    <string name="carbonara_chicken_number_of_pax">Carbonara (Chicken) - RM6/pax</string>
+    <string name="bolognaise_beef_number_of_pax">Bolognaise (Beef) - RM6/pax</string>
+    <string name="bolognaise_chicken_number_of_pax">Bolognaise (Chicken) - RM6/pax</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">Email</string>
+    <string name="catering_time">Catering time</string>
+    <string name="catering_date">Select Catering date</string>
+</resources>

@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:backgroundTint="#F2FFFFFF"
+    android:backgroundTintMode="src_over">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp"
+        android:layout_marginTop="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/menu_pasta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/single_day"
+                android:paddingTop="12dp"
+                android:text="@string/pasta"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="34dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/menu_divider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_pasta"
+                app:srcCompat="@drawable/divider" />
+
+            <ImageView
+                android:id="@+id/menu_carbonara"
+                android:layout_width="0dp"
+                android:layout_height="179dp"
+                app:layout_constraintEnd_toStartOf="@+id/menu_macncheese"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_divider"
+                app:srcCompat="@drawable/carbornara" />
+
+            <ImageView
+                android:id="@+id/menu_macncheese"
+                android:layout_width="0dp"
+                android:layout_height="179dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/menu_carbonara"
+                app:layout_constraintTop_toBottomOf="@+id/menu_divider"
+                app:srcCompat="@drawable/mac_and_cheese" />
+
+            <TextView
+                android:id="@+id/carbonara_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/single_day"
+                android:text="@string/carbonara_txt"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/macncheese_txt"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_carbonara" />
+
+            <TextView
+                android:id="@+id/macncheese_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/single_day"
+                android:text="@string/macncheese_txt"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/carbonara_txt"
+                app:layout_constraintTop_toBottomOf="@+id/menu_macncheese" />
+
+            <TextView
+                android:id="@+id/carbonara_des_txt"
+                android:layout_width="204dp"
+                android:layout_height="170dp"
+                android:fontFamily="@font/single_day"
+                android:paddingTop="10dp"
+                android:text="@string/carbonara_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginEnd="4dp"
+                app:layout_constraintEnd_toStartOf="@+id/macncheese_des_txt"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/carbonara_txt" />
+
+            <TextView
+                android:id="@+id/macncheese_des_txt"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/single_day"
+                android:paddingTop="10dp"
+                android:text="@string/macncheese_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/carbonara_des_txt"
+                app:layout_constraintTop_toBottomOf="@+id/macncheese_txt" />
+
+
+            <ImageView
+                android:id="@+id/menu_bolognaise"
+                android:layout_width="0dp"
+                android:layout_height="179dp"
+                app:layout_constraintEnd_toStartOf="@+id/menu_bechamel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/carbonara_des_txt"
+                app:srcCompat="@drawable/bolognaise" />
+
+            <ImageView
+                android:id="@+id/menu_bechamel"
+                android:layout_width="0dp"
+                android:layout_height="179dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/menu_bolognaise"
+                app:layout_constraintTop_toBottomOf="@+id/macncheese_des_txt"
+                app:srcCompat="@drawable/bechamel" />
+
+            <TextView
+                android:id="@+id/bolognaise_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bolognaise_txt"
+                android:textAlignment="center"
+                android:fontFamily="@font/single_day"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/bechamel_txt"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_bolognaise" />
+
+            <TextView
+                android:id="@+id/bechamel_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/single_day"
+                android:text="@string/bechamel_txt"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/bolognaise_txt"
+                app:layout_constraintTop_toBottomOf="@+id/menu_bechamel" />
+
+            <TextView
+                android:id="@+id/bolognaise_des_txt"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_marginEnd="4dp"
+                android:fontFamily="@font/single_day"
+                android:paddingTop="10dp"
+                android:text="@string/bolognaise_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/bechamel_des_txt"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bolognaise_txt" />
+
+            <TextView
+                android:id="@+id/bechamel_des_txt"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/single_day"
+                android:paddingTop="10dp"
+                android:text="@string/bechamel_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/bolognaise_des_txt"
+                app:layout_constraintTop_toBottomOf="@+id/bechamel_txt" />
+
+            <ImageView
+                android:id="@+id/menu_mornay"
+                android:layout_width="201dp"
+                android:layout_height="179dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bolognaise_des_txt"
+                app:srcCompat="@drawable/mornay" />
+
+            <TextView
+                android:id="@+id/mornay_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/single_day"
+                android:text="@string/mornay_txt"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_mornay" />
+
+            <TextView
+                android:id="@+id/mornay_des_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/single_day"
+                android:paddingTop="10dp"
+                android:text="@string/mornay_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mornay_txt" />
+
+            <TextView
+                android:id="@+id/menu_mains"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="26dp"
+                android:text="@string/mains"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/single_day"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mornay_des_txt" />
+
+            <ImageView
+                android:id="@+id/menu_divider2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_mains"
+                app:srcCompat="@drawable/divider" />
+
+            <ImageView
+                android:id="@+id/menu_confit"
+                android:layout_width="0dp"
+                android:layout_height="179dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/menu_chop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_divider2"
+                app:srcCompat="@drawable/chicken_confit" />
+
+            <ImageView
+                android:id="@+id/menu_chop"
+                android:layout_width="0dp"
+                android:layout_height="179dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/menu_confit"
+                app:layout_constraintTop_toBottomOf="@+id/menu_divider2"
+                app:srcCompat="@drawable/chicken_chop" />
+
+            <TextView
+                android:id="@+id/confit_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/single_day"
+                android:text="@string/confit_txt"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/chop_txt"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_confit" />
+
+            <TextView
+                android:id="@+id/chop_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/chop_txt"
+                android:textAlignment="center"
+                android:fontFamily="@font/single_day"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/confit_txt"
+                app:layout_constraintTop_toBottomOf="@+id/menu_chop" />
+
+            <TextView
+                android:id="@+id/confit_des_txt"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="4dp"
+                android:fontFamily="@font/single_day"
+                android:paddingTop="10dp"
+                android:text="@string/confit_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/chop_des_txt"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/confit_txt" />
+
+            <TextView
+                android:id="@+id/chop_des_txt"
+                android:layout_width="202dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/single_day"
+                android:paddingTop="10dp"
+                android:text="@string/chop_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/confit_des_txt"
+                app:layout_constraintTop_toBottomOf="@+id/chop_txt" />
+
+            <ImageView
+                android:id="@+id/menu_meatball"
+                android:layout_width="201dp"
+                android:layout_height="179dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/confit_des_txt"
+                app:srcCompat="@drawable/chicken_meatballs" />
+
+            <TextView
+                android:id="@+id/meatball_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/meatball_txt"
+                android:textAlignment="center"
+                android:fontFamily="@font/single_day"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_meatball" />
+
+            <TextView
+                android:id="@+id/meatball_des_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/meatball_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:fontFamily="@font/single_day"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/meatball_txt" />
+
+            <TextView
+                android:id="@+id/menu_sides"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingTop="26dp"
+                android:text="@string/sides"
+                android:fontFamily="@font/single_day"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/meatball_des_txt" />
+
+            <ImageView
+                android:id="@+id/menu_divider3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_sides"
+                app:srcCompat="@drawable/divider" />
+
+            <ImageView
+                android:id="@+id/menu_potatoes"
+                android:layout_width="201dp"
+                android:layout_height="179dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_divider3"
+                app:srcCompat="@drawable/mash_potato" />
+
+            <TextView
+                android:id="@+id/potatoes_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/potatoes_txt"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:fontFamily="@font/single_day"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_potatoes" />
+
+            <TextView
+                android:id="@+id/potatoes_des_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:fontFamily="@font/single_day"
+                android:text="@string/potatoes_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/potatoes_txt" />
+
+            <TextView
+                android:id="@+id/menu_desserts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingTop="26dp"
+                android:text="@string/sides"
+                android:fontFamily="@font/single_day"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/potatoes_des_txt" />
+
+            <ImageView
+                android:id="@+id/menu_divider4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_desserts"
+                app:srcCompat="@drawable/divider" />
+
+            <ImageView
+                android:id="@+id/menu_pudding"
+                android:layout_width="201dp"
+                android:layout_height="179dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menu_divider4"
+                app:srcCompat="@drawable/pudding" />
+
+            <TextView
+                android:id="@+id/pudding_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pudding_txt"
+                android:textAlignment="center"
+                android:fontFamily="@font/single_day"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_pudding" />
+
+            <TextView
+                android:id="@+id/pudding_des_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:fontFamily="@font/single_day"
+                android:text="@string/pudding_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pudding_txt" />
+
+            <TextView
+                android:id="@+id/menu_drinks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingTop="26dp"
+                android:text="@string/drinks"
+                android:fontFamily="@font/single_day"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pudding_des_txt" />
+
+            <ImageView
+                android:id="@+id/menu_divider5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_drinks"
+                app:srcCompat="@drawable/divider" />
+
+            <ImageView
+                android:id="@+id/menu_tea"
+                android:layout_width="201dp"
+                android:layout_height="179dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_divider5"
+                app:srcCompat="@drawable/ice_lemon_tea" />
+
+            <TextView
+                android:id="@+id/tea_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tea_txt"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:fontFamily="@font/single_day"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_tea" />
+
+            <TextView
+                android:id="@+id/tea_des_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:fontFamily="@font/single_day"
+                android:paddingBottom="46dp"
+                android:text="@string/tea_des"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tea_txt" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/single_day"
+            android:text="Menu"
+            android:textColor="@color/white"
+            android:textSize="31sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/helpbtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/help"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btm_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemTextColor="@drawable/selector"
+        android:background="@color/black"
+        app:itemIconTint="@drawable/selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
